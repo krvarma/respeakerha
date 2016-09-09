@@ -1,0 +1,27 @@
+{
+  "id": "3675c70d-cbe9-4b36-b3f1-fa4957f093e9",
+  "name": "room",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "living room",
+      "synonyms": [
+        "living room"
+      ]
+    },
+    {
+      "value": "bedroom",
+      "synonyms": [
+        "bedroom"
+      ]
+    },
+    {
+      "value": "kitchen",
+      "synonyms": [
+        "kitchen"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

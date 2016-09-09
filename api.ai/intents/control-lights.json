@@ -1,0 +1,145 @@
+{
+  "id": "60d565b6-c1f3-45fb-80ad-c780572bfb88",
+  "name": "control-lights",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "dcd4f819-40df-49c9-9a10-db9274f6a698",
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "on",
+          "alias": "op",
+          "meta": "@action",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "bedroom",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        },
+        {
+          "text": " light"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00d5020f-0477-41e7-8407-d20866de6eaf",
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "on",
+          "alias": "op",
+          "meta": "@action",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "kitchen",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        },
+        {
+          "text": " light"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ab344df-d7de-4f8d-88bc-ed8c773f1aba",
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "off",
+          "alias": "op",
+          "meta": "@action",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "kitchen",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": false
+        },
+        {
+          "text": " light"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a92d581c-062f-43ac-a636-5397439a6be8",
+      "data": [
+        {
+          "text": "turn "
+        },
+        {
+          "text": "off",
+          "alias": "op",
+          "meta": "@action",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "bedroom",
+          "alias": "room",
+          "meta": "@room",
+          "userDefined": true
+        },
+        {
+          "text": " light"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "control-light",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "required": false,
+          "dataType": "@action",
+          "name": "op",
+          "value": "$op"
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "state": "LEARNED",
+  "priority": 500000,
+  "webhookUsed": false,
+  "fallbackIntent": false
+}

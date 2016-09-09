@@ -1,0 +1,27 @@
+{
+  "id": "1ec685c8-274f-46c6-b982-b01145373ee4",
+  "name": "messagetype",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "voice",
+      "synonyms": [
+        "voice"
+      ]
+    },
+    {
+      "value": "text",
+      "synonyms": [
+        "text"
+      ]
+    },
+    {
+      "value": "@sys.any:message",
+      "synonyms": [
+        "@sys.any:message"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

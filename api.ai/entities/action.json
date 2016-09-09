@@ -1,0 +1,33 @@
+{
+  "id": "fb55b913-7e90-46c6-8c77-581e0228c8ee",
+  "name": "action",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "on",
+      "synonyms": [
+        "on"
+      ]
+    },
+    {
+      "value": "off",
+      "synonyms": [
+        "off"
+      ]
+    },
+    {
+      "value": "voice",
+      "synonyms": [
+        "voice"
+      ]
+    },
+    {
+      "value": "text",
+      "synonyms": [
+        "text"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

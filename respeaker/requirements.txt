@@ -1,0 +1,8 @@
+#
+####### requirements.txt #######
+#
+###### Respeaker Home Automation Example Requirements ######
+
+pyaudio
+webrtcvad
+paho-mqtt
