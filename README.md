@@ -45,7 +45,7 @@ Using the application
 7. Got to *respeaker* folder
 8. Create an account or log on to Microsoft Cognitive Service Speech API](https://www.microsoft.com/cognitive-services/en-us/speech-api).
 9. Get an API Key and replace the variable `BING_KEY` in the Python Script `creds.py`.
-10. Create and account or log on to Api.ai
+10. Create and account or log on to [Api.ai](https://api.ai/)
 11. Get Access Token and replace the variable `APIAI_TOKEN` in the Python Script `creds.py`
 12. Open Arduino IDE and load respeaker_ha.ino`. Flash this application to your ReSpeaker
 13. Got to *respeakerha\respeaker* folder
@@ -65,5 +65,4 @@ Schematics
 Demo Video
 ----------
 
-https://www.youtube.com/watch?v=_gFTX7dubsY
 https://www.youtube.com/watch?v=_gFTX7dubsY
