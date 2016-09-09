@@ -18,11 +18,12 @@ import sys
 import signal
 import pyaudio
 
+from creds import BING_KEY
+from creds import APIAI_TOKEN
+
 # get a key from https://www.microsoft.com/cognitive-services/en-us/speech-api
-BING_KEY = '338a43b317ff4518b2416b37c19e31fc'
-APIAI_TOKEN = '549f1420d83945c89a193dc0619e2248'
 HA_MQTT_TOPIC = 'respeaker/ha/cmd'
-TRIGGER_WORD = 'home'
+TRIGGER_WORD = 'jarvis'
 
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
@@ -107,7 +108,7 @@ while not leave:
 			print('Bing:' + recognizedText.encode('utf-8'))
 			
 			if(recognizedText == TRIGGER_WORD):
-				print("Triggre word detected")
+				print("Trigger word detected")
 				got_trigger = True
 				spi.write("on\n");
 			elif got_trigger:
