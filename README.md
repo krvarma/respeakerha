@@ -29,21 +29,31 @@ Parts List
 3. [Generic LEDs](http://www.mouser.com/leds-leaded/)
 4. [Jumper Wires](http://www.mouser.com/Tools-Supplies/Prototyping-Products/Jumper-Wires/_/N-bkrh0)
 
+Setting up ReSpeaker
+--------------------
+Follow [this document](https://github.com/respeaker/get_started_with_respeaker/wiki) to get started with ReSpeaker
+
 Using the application
 ---------------------
 
-1. Get a API key from [Microsoft Cognitive Service Speech API](https://www.microsoft.com/cognitive-services/en-us/speech-api) and replace the variable `BING_KEY` in the Python Script `creds.py`.
-2. Create a new Agent and import the `ReSpeakerHA.zip`. Refer to the [Api.ai documentation](https://docs.api.ai/) for more details about the APIs and configuration
-3. Get Access Token fomr Api.ai and replace the variable `APIAI_TOKEN` in the Python Script `creds.py`
-4. Wire up the Arduino MKR1000 as per the schematics below
-5. Flash the `ha.ino` to MKR1000
-6. SSH to ReSpeaker 
-7. Clone the repo https://github.com/krvarma/respeakerha.git
-8. Install required Python package `paho-mqtt` using `pip install paho-mqtt`
-9. Install required Python package `monotonic` using `pip install monotonic`
-10. Run `start_recognize.py` using `python start_recognize.py`
-11. Say *`jarvis`* and wait for the LEDs to turn on
-12. Say `turn on bedroom light/turn off bedroom light/turn on kitchen light/turn off kitchen light`
+1. Wire up the Arduino MKR1000 as per the schematics below
+2. Open Arduino IDE and flash the `ha.ino` to MKR1000
+3. Connect your ReSpeaker to the network
+4. SSH to your ReSpeaker
+5. Create a folder to clone the project files
+6. Move to the folder and close the repo https://github.com/krvarma/respeakerha.git
+7. Got to *respeaker* folder
+8. Create an account or log on to Microsoft Cognitive Service Speech API](https://www.microsoft.com/cognitive-services/en-us/speech-api).
+9. Get an API Key and replace the variable `BING_KEY` in the Python Script `creds.py`.
+10. Create and account or log on to Api.ai
+11. Get Access Token and replace the variable `APIAI_TOKEN` in the Python Script `creds.py`
+12. Open Arduino IDE and load respeaker_ha.ino`. Flash this application to your ReSpeaker
+13. Got to *respeakerha\respeaker* folder
+14. Install required Python package `paho-mqtt` using `pip install paho-mqtt`
+15. Install required Python package `monotonic` using `pip install monotonic`
+16. Run `start_recognize.py` using `python start_recognize.py`
+17. Say *`jarvis`* and wait for the lights on your ReSpeaker to turn on
+18. Say `turn on bedroom light/turn off bedroom light/turn on kitchen light/turn off kitchen light
 
 If everything OK, you can turn on/off the lights using voice input.
 
@@ -55,4 +65,5 @@ Schematics
 Demo Video
 ----------
 
+https://www.youtube.com/watch?v=_gFTX7dubsY
 https://www.youtube.com/watch?v=_gFTX7dubsY
