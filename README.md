@@ -33,7 +33,7 @@ Using the application
 ---------------------
 
 1. Get a API key from [Microsoft Cognitive Service Speech API](https://www.microsoft.com/cognitive-services/en-us/speech-api) and replace the variable `BING_KEY` in the Python Script `creds.py`.
-2. Create a new Agent and import the `ReSpeakerHA.zip`
+2. Create a new Agent and import the `ReSpeakerHA.zip`. Refer to the [Api.ai documentation](https://docs.api.ai/) for more details about the APIs and configuration
 3. Get Access Token fomr Api.ai and replace the variable `APIAI_TOKEN` in the Python Script `creds.py`
 4. Wire up the Arduino MKR1000 as per the schematics below
 5. Flash the `ha.ino` to MKR1000
@@ -51,3 +51,8 @@ Schematics
 ----------
 
 ![Schematics](https://raw.githubusercontent.com/krvarma/respeakerha/master/images/schematics.png)
+
+Demo Video
+----------
+
+https://www.youtube.com/watch?v=_gFTX7dubsY
